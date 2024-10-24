@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" type="text/css" href="estilo.css" >
+    <script type="text/javascript" src="js/index.js"></script>
+
+   <title>Locadora</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="titulo"> 
+    <header>
+        <strong><h1 id="titulo">RetroLOC</h1></strong>
+       </header>
+    <h2 id="subtitulo">Compre, Alugue e Venda!</h2>
+  </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <img class="navbar-brand" src="https://cdn-icons-png.flaticon.com/512/2489/2489596.png" alt=""> 
+            
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ALUGAR</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">VENDER</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+			  
+<div id="produtos">
+  <div class="col-nd-2">
+
+  <div class="Mario">
+    <p id="descricao">Super Mario World (SNES)</p> <strong><p id="valor">R$ 25,00</p> </strong><br>
+    Quantidade:<input type="number" value="1" min="1" max="10" id="qtd1">
+    <button  type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Super Mario World', document.getElementById('qtd1').value, '25.00', 1)"> Comprar </button>
+  </div>
+
+   <img class="marioimg" src="https://notadogame.com/uploads/game/cover/250x/5bfdc387f11f0.jpg" alt=""> </br>
+  </div>
+
+
+<div id="GTA">
+	<div class="col-nd-2">
+
+    <div class="Gta">
+      <p id="descricao"><br>GTA San Andreas (PS2)</p><strong><p id="valor">R$ 35,00</p></strong><br>
+      Quantidade:<input type="number" value="1" min="1" max="10" id="qtd2">
+      <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('GTA San Andreas', document.getElementById('qtd2').value, '35.00', 2)"> Comprar </button>
+    </div>
+
+ <img class="gtaimg" src="https://jogorama.com.br/arquivos/capas/762.jpg" alt=""></br>
+</div>
+</div>
+
+
+
+
+<div id="Halo">
+	<div class="col-nd-2">
+
+    <div align="center">
+      <br>Halo (Xbox 360)<strong><p id="valor">R$ 45,00</p></strong><br>
+      Quantidade:<input type="number" value="1" min="1" max="10" id="qtd3">
+      <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Halo', document.getElementById('qtd3').value, '45.00', 3)"> Comprar </button>
+    </div>
+    
+	<img class="haloimg" src="https://bdjogos.com.br/capas/4338-halo-4-xbox-360-capa-1.jpg" alt=""></br>
+  </div>
+</div>
+</div>
+
+<div class="produtos2">
+
+<div id="Forza">
+	<div class="col-nd-2">
+
+    <div align="center">
+      <br>Forza Horizon 2 (Xbox One)<strong><p id="valor">R$ 100,00</p></strong><br>
+      Quantidade: <input type="number" value="1" min="1" max="10" id="qtd4">
+      <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Forza Horizon 2', document.getElementById('qtd4').value, '100.00', 4)"> Comprar </button>
+    </div>
+
+	<img class="forzaimg" src="https://lojasaraiva.vteximg.com.br/arquivos/ids/3447789/1001896121.jpg?v=637039204422170000" alt=""></br>
+  </div>
+</div>
+
+
+
+
+<div class="col-nd-2">
+
+  <div align="center">
+    <br>The Last of Us (PS3) <strong><p id="valor">R$ 60,00</p></strong><br>
+    Quantidade: <input type="number" value="1" min="1" max="10" id="qtd5">
+    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('The Last of Us', document.getElementById('qtd5').value, '60.00', 5)"> Comprar </button>
+  </div>
+  
+    <img class="tlouimg" src="https://http2.mlstatic.com/D_NQ_NP_802102-MLA44366556400_122020-O.jpg" alt=""></br>
+  </div>
+
+
+
+
+<div class="col-nd-2">
+
+	<div align="center">
+    <br>Sonic The hedgehog (Mega Drive)<strong><p id="valor">R$ 150,00</p></strong><br>
+    Quantidade: <input type="number" value="1" min="1" max="10" id="qtd6">
+    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Sonic The hedgehog', document.getElementById('qtd6').value, '150.00', 6)"> Comprar </button>
+  </div>
+
+	<img class="sonicimg" src="https://jogorama.com.br/arquivos/capas/106.jpg" alt=""></br>
+  </div>
+
+
+
+</div>
+
+
+
+
+<p align="center">
+	<a href="carrinho.html"> Ver Carrinho de compras </a>
+</p>	
+		
+<script>
+	function AddCarrinho(produto, qtd, valor, posicao)
+	{
+		localStorage.setItem("produto" + posicao, produto);
+		localStorage.setItem("qtd" + posicao, qtd);
+		valor = valor * qtd;
+		localStorage.setItem("valor" + posicao, valor);
+		alert("Produto adicionado ao carrinho!");
+	}
+</script>
+
+<footer>
+         
+	<div class="rodape">
+	  <Strong><p>Informações:</p></Strong>
+	  <p>Endereço: Rua robotnik n°1958 Pria Grande SP</p>
+	  <p>CNPJ: 05.200.360/0001-13</p>
+	  <p>RetroLOC.Copyright</p>
+	</div>
+	<div class="rodape2">
+    <Strong><p>Entre em contato conosco por nossas mídias sociais:</p></Strong>
+	  <p>Tel: 1978-2022</p>
+	  <p>Instagram: @retroloc</p>
+	  <p>Email: retroloc@gmail.com</p>
+	</div>
+   
+  </footer>
+ 
+
+</body>
+</html>

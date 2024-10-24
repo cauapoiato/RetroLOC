@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+body{
+    background-color: #f5f7ff;
+}
+.titulo{
+    text-align: center;
+    color: #e9f5ff;
+    font-weight: lighter;
+    padding: 5px;
+    background-color: #2e3040;
+}
+
+.navbar-brand {
+    width: 70px;
+    height: 70px; 
+    display:inline-block;
+    position: relative;
+}
+
+.nav-link-active{
+      text-decoration: none;
+}
+
+.container-fluid{
+    background-color: #f5f7ff;
+}
+#produtos img {
+    width: 250px;
+    height: 350px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.produtos2 img {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+:root{
+    --cor-primaria-success: #08ff3e;
+    --cor-hover-success: #037115;
+    --cor-secundaria-success: #07d83f;
+}
+.btn-success{
+   background-color: var(--cor-primaria-success);
+   outline: none;
+   color: var(--cor-secundaria-success);
+  size: 100px;
+
+}
+.btn-success-hover{
+  background-color:var(--cor-hover-success) ;
+}
+#botao{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+
+.compra{
+    text-indent: 50px ;
+    color: #2e3040;
+    padding: 5px;
+    }
+
+#produtos{
+    color: #2e3040;
+    text-indent: 30px ;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f7ff;
+    padding-top: 15px;
+}
+
+.produtos2{
+    color: #2e3040;
+    text-indent: 30px ;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f7ff;
+    padding-top: 15px;
+}
+#valor{
+    color: #4fc769;
+}
+
+.rodape{
+    background-color: #2e3040;
+    color: #e9f5ff;
+    font-family: Arial;
+    font-weight: lighter;
+    padding: 5px;
+    text-indent: 100px ;
+    float: left;
+    padding-top: 40px;
+}
+
+.rodape2{
+    color: #e9f5ff;
+    font-family: Arial;
+    font-weight: lighter;
+    padding: 5px;
+    text-indent: 150px ;
+    background-color: #2e3040;
+    padding-top: 40px;
+}
+
