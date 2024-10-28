@@ -1,6 +1,15 @@
+function AddCarrinho(produto, qtd, valor, posicao)
+{
+	localStorage.setItem("produto" + posicao, produto);
+	localStorage.setItem("qtd" + posicao, qtd);
+	valor = valor * qtd;
+	localStorage.setItem("valor" + posicao, valor);
+	alert("Produto adicionado ao carrinho!");
+}
+
 var total = 0; // variável que retorna o total dos produtos que estão na LocalStorage.
- var i = 0;     // variável que irá percorrer as posições
- var valor = 0; // variável que irá receber o preço do produto convertido em Float.
+var i = 0;     // variável que irá percorrer as posições
+var valor = 0; // variável que irá receber o preço do produto convertido em Float.
  
  for(i=1; i<=99; i++) // verifica até 99 produtos registrados na localStorage
  {
