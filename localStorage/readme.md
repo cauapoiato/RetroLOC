@@ -11,5 +11,5 @@
 </div>
 
 # Time
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/33001620?v=4" width=115><br><sub>Cauã Poiato</sub>](https://github.com/cauapoiato) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123379826?v=4" width=115><br><sub>Gustavo Machado</sub>](https://github.com/Guga-tab) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/111518247?v=4" width=115><br><sub>Cauã Poiato</sub>](https://github.com/cauapoiato) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123379826?v=4" width=115><br><sub>Gustavo Machado</sub>](https://github.com/Guga-tab) |
 | :---: | :---: |
